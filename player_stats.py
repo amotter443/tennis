@@ -2,6 +2,8 @@ import requests
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
+import logging
+logging.basicConfig(level=logging.DEBUG)
 
 #Either a) hard-code the team roster in this section or b) knit this script with the previous team_tennisrecord or team_usta one
 content = ['']
@@ -65,7 +67,7 @@ for i in range(0, len(search_params)):
     df.loc[df['Player'] == player,'Double_Breadstick_For'] = element_list[4]
     df.loc[df['Player'] == player,'Double_Breadstick_Against'] = element_list[5]
 
-    print(content[i])
+    logging.debug("Advanced statistics collected for %s and stored in dataframe." % (content[i]))
 
 
 print(df)
