@@ -1,5 +1,5 @@
 # tennis
->Reverse engineering the USTA rating algorithm
+>Using historical tennis statistics to perform prescriptive analytics
 
 Within both computer science and data science, a skillset that is crucial to master is web scraping. Scraping programs allow for data to be collected from websites and converted into a local data structure for subsequent analysis. Working on this project allowed me to get better at writing and process HTML requests in Python, and then using the scraped data to perform interesting analysis. Additionally, tennis with its complex scoring system and many variations provides a challenging and interesting dataset to perform cleaning and modeling. Working with tennis data allowed me to better understand the factors which affect player ratings and the many edge cases that can affect scoring and the ultimate match outcome. Even if you're not a tennis fan, this project has lots of unique challenges that are certain to prove engaging.
 
@@ -7,7 +7,7 @@ Within both computer science and data science, a skillset that is crucial to mas
 Who is this project for?
 ------------------------
 - Python developers looking to gain experience in web scraping and using requests/BeautifulSoup libraries
-- Data scientists looking to develop more skills with writing algorithms from scratch
+- Data scientists looking to develop more familiarity with complex sports analytics/statistics data
 - Tennis fans looking to upskill with an intermediate-advanced development project 
 
 
