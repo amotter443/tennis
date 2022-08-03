@@ -39,6 +39,6 @@ Play Aggregate Stats Data Dictionary
 - `Double_Bagel_For` -- When a player wins a match 6-0 6-0
 - `Double_Bagel_Against` -- When a player loses a match 0-6 0-6
 - `Bagel_Breadstick_For` -- When a player wins a match 6-0 6-1 or 6-1 6-0
-- `Bagel_Breadstick_Against` -- When a player loses a match 6-0 6-1 or 6-1 6-0
+- `Bagel_Breadstick_Against` -- When a player loses a match 0-6 1-6 or 1-6 0-6
 - `Double_Breadstick_For` -- When a player wins a match 6-1 6-1
-- `Double_Breadstick_Against` -- When a player loses a match 6-1 6-1
+- `Double_Breadstick_Against` -- When a player loses a match 1-6 1-6
